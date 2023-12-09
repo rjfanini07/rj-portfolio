@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    height: 50px;
+    background-color: #ffd800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2 );
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.container {
+    background-color: #ffd800;
+}
+
+section p { 
+    align-content: center;
+}
+
