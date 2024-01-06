@@ -12,15 +12,20 @@
     color: #333;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
 ul {
-    text-decoration: none; 
-    padding: 0; 
+    padding: 10px; 
     margin: 15px;
 }
 
 li {
     display: inline;
     justify-content: center;
+    text-decoration: none;
 }
 
 li :hover {
@@ -32,6 +37,12 @@ li :active {
     text-decoration: underline;
 }
 
+.p-home {
+    max-width: 1800px;
+    min-width: 400px;
+    font-size: 24px;
+}
+
 /* home page */
 
 header {
@@ -41,9 +52,13 @@ header {
 }
 
 .container-home{
-    width: 1300px;
     align-content: center;
 } 
+
+.container-home>.content>img {
+    width: 300px;
+    padding: 5em;
+}
  
 .content{
    width: 100%;
