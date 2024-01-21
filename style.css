@@ -51,11 +51,8 @@ header {
     padding: 1em;
 }
 
-.container-home{
-    align-content: center;
-} 
-
 .container-home>.content>img {
+    align-content: center;
     width: 300px;
     padding: 5em;
 }
@@ -91,14 +88,33 @@ footer {
 /* illustrations page */
 
 .img-container {
-    max-width: 400px;
+    max-width: 100%;
+    margin: 25px;
+    align: center;
+
+
+    border: 1px solid #000;
+}
+
+img {
     align-content: center;
+    min-width: 200px;
+    max-width: 400px;
     flex-wrap: wrap;
+}
+
+img:hover {
+    transform: scale(1.1);
     transition: all 1s;
 }
 
-.img-container:hover {
-    transform: scale(1.1);
+div>img-container {
+    grid-template-columns: 3fr;
+    transition: all .5s;
 }
 
 /* contact */
+
+.about {
+    margin: 25px;
+} 
